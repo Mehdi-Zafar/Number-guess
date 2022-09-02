@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto");
+
+* {
+  font-family: "Aboreto", cursive;
+}
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+
+div.rules {
+  background-color: mistyrose;
+  width: 600px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+div.rules h1,
+div.rules p {
+  text-align: center;
+}
+
+div.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 97.5vh; */
+}
+
+button.start-btn {
+  padding: 5px;
+  color: mistyrose;
+  font-size: 1.5rem;
+  background: black;
+  border: 2px solid mistyrose;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+div.input-field {
+  display: none;
+  color: black;
+  font-size: 1.4rem;
+  background-color: mistyrose;
+  padding: 10px;
+  border-radius: 10px;
+  width: 320px;
+  font-weight: bold;
+}
+
+div.input-field input {
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 1.4rem;
+}
+
+div.input-field button {
+  display: block;
+  margin: auto;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.89);
+  color: mistyrose;
+  border-radius: 7px;
+}
+
+div.gameover {
+  display: none;
+  color: black;
+  font-size: 1.5rem;
+  background-color: mistyrose;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+div.gameover button {
+  padding: 5px;
+  color: mistyrose;
+  font-size: 1.5rem;
+  background: black;
+  border: 2px solid mistyrose;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
